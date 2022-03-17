@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aula 2 - Formulário</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link href="./styles.css" rel="stylesheet">
+  <link href="./test-EULA.html" rel="preconnect">
+</head>
+
+<body>
+  <div class="main-container">
+  <h1 class="title">Faça seu cadastro</h1>
+  <div>
+  <label class="label-field">Nome completo</label>
+  <input type="text" placeholder="Digite seu nome" />
+</div>
+
+<div class="half-box">
+
+  <div class="part-half-box">
+  <label class="namepart-label-field">Data de nascimento</label>
+  <input class="part-label-field" type="date" />
+</div>
+
+  <div class="part-half-box">
+  <label class="namepart-label-field">País</label>
+  <select class="part-label-field" >
+    <option>Brasil</option>
+    <option>Argentina</option>
+    <option>Paraguai</option>
+  </select>
+</div>
+
+</div>
+
+<div>
+  <label class="label-field">Gênero</label>
+  <form >
+  <input type="radio" name="input-genre" class="box-form"/>Feminino</input>
+  <input type="radio" name="input-genre" class="box-form"/>Masculino</input>
+  <input type="radio" name="input-genre" class="box-form"/>Não declarar</input>
+</form>
+</div>
+
+<div>
+  <label class="label-field">Email</label>
+  <input type="email" placeholder="Digite seu email" />
+</div>
+
+<div>
+  <label class="label-field">Senha</label>
+  <input type="password" placeholder="Crie uma senha" />
+</div>
+
+<div>
+  <label class="label-field">Repetir senha</label>
+  <input class="text-box" type="password" placeholder="Confirme sua senha" />
+</div>
+
+<div class="box">
+  <input type="checkbox"/>
+  <p>
+    Aceito os <a target ="_blank" href="test-EULA.html">termos e condições</a> e concordo com as <a target ="_blank" href="test-EULA.html">políticas de privacidade do
+    Hall to Code.</a>
+  </p>
+</div>
+<button><a href="email-confirmation.html" id="confirmation" button>Cadastrar</a></button>
+
+  <p>Já tem uma conta Hall to Code? <a target ="_blank" href="register.html">Entre agora!</a></p>
+</body>
+</html>
